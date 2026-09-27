@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/macosmojave',
   eslint: {
     ignoreDuringBuilds: true,
   },
